@@ -292,7 +292,7 @@ if(strpos($value,' -- ')) {
 	$dhi_val_len = strlen($value);  // calculate length of the variable "value"
 	$dhi_len = $dhi_val_len-$dhi_pos; // calculate length of second part of "value"
            $value = '<a href="/fedora/repository/'.substr($value,0,$dhi_pos-1).'">Related item: '.substr($value,0,$dhi_pos-1).'</a><br />
-<a href="/fedora/repository/'.substr($value,$dhi_pos+2,$dhi_len).'">Related item: '.substr($value,$dhi_pos+2,$dhi_len).'</a>';
+<a href="/fedora/repository/'.substr($value,$dhi_pos+4,$dhi_len).'">Related item: '.substr($value,$dhi_pos+4,$dhi_len).'</a>';
 } else {
 	$value = '<a href="/fedora/repository/'.$value.'">Related item: '.$value.'</a>';
 	}
