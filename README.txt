@@ -1,3 +1,5 @@
+My diddly doo changes
+
 The islandora_solr_search module allows users of the Islandora fedora repository
 to search their Fedora Repository with a properly configured Solr instance.
 
